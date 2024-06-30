@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Epilogue";
+  src: url(/public/fonts/Epilogue/Epilogue-VariableFont_wght.ttf);
+}
+
+*,
+*::after,
+*::before {
+  font-family: "Epilogue", sans-serif;
+}
