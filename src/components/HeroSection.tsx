@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <main className="flex w-screen md:h-screen md:items-center md:justify-center bg-custom-almost-white md:pt-24">
+    <main className="flex w-screen md:h-screen md:items-center md:justify-center bg-custom-almost-white ">
       <section className="flex flex-col items-stretch w-11/12 gap-12 mx-auto md:justify-between md:flex-row-reverse md:w-10/12">
         <div className=" md:w-5/12 2xl:w-4/12">
           <img
@@ -14,9 +14,9 @@ function HeroSection() {
             className="object-contain md:hidden"
           />
         </div>
-        <div className="relative flex flex-col flex-1 md:justify-center md:ml-20 md:w-5/12 md:gap-12">
+        <div className="relative flex flex-col flex-1 md:justify-center lg:ml-20 md:w-5/12 md:gap-12">
           <div className="flex flex-col items-center gap-6 md:items-stretch md:gap-12">
-            <h1 className="flex gap-2 md:text-left justify-center md:flex-col font-bold text-4xl md:text-7xl lg:text-[80px] 2xl:text-9xl">
+            <h1 className="flex gap-2 md:text-left justify-center z-0 md:flex-col font-bold text-4xl md:text-7xl lg:text-[80px] 2xl:text-9xl">
               <span>Make </span> <span>remote work</span>
             </h1>
             <p className="text-base font-medium text-center md:text-left md:text-lg text-custom-medium-gray md:w-10/12 2xl:text-2xl">
@@ -27,7 +27,7 @@ function HeroSection() {
               Learn more
             </button>
           </div>
-          <div className="bottom-0 flex items-center justify-between w-full pt-12 md:gap-4 md:absolute md:pt-16 md:w-10/12">
+          <div className="flex items-center justify-between w-full pt-12 md:gap-4 md:pt-16 md:w-10/12">
             <img
               src="/images/client-databiz.svg"
               alt="client logo"

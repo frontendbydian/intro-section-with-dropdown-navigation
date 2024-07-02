@@ -30,7 +30,7 @@ function FeaturesMenu() {
   return (
     <>
       <li
-        className="relative w-fit"
+        className="relative z-50 w-fit"
         onMouseEnter={() => setIsExpanded(true)}
         onMouseLeave={() => setIsExpanded(false)}
       >
@@ -46,7 +46,7 @@ function FeaturesMenu() {
           )}
         </button>
         <ul
-          className={`md:absolute right-0 px-6 md:mt-4 flex flex-col items-start justify-between gap-4 bg-white md:shadow-[0_0_16px_0_rgb(0_0_0/0.1)] transition-all rounded-xl w-max overflow-hidden ${
+          className={`md:absolute right-0 px-6 md:mt-4 flex z-50 flex-col items-start justify-between gap-4 bg-white md:shadow-[0_0_16px_0_rgb(0_0_0/0.1)] transition-all rounded-xl w-max overflow-hidden ${
             isExpanded ? "max-h-96 py-6" : "max-h-0 py-0"
           }`}
         >
